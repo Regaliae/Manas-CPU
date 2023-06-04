@@ -1,0 +1,20 @@
+; Program counts down from 10 and ends.
+
+main:                       ; Program will always start at 0x0000, which is the start of the program ROM
+LDA data                    ; so try to keep main: label at the top, unless you're comfortable changing it
+LDIB 0x1
+
+loop:
+SUB                         ; Subtracts B register from A register, here subtracts 1 until A is zero
+JMPZ end                    
+JMP loop
+
+data:                       ; Label for memory address where a 16-bit word with value 10 is located
+db 0x0a
+
+end:
+HLT                         ; Stops the processor clock
+
+testvar: 6009               ; Variable which will not be assembled, but can be used anywhere in this file.
+                            ; Converted from label by having a value after label to turn it into variable.
+                            ; Labels store Memory addresses, while variables store values.
