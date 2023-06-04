@@ -110,16 +110,16 @@ Files for the 16-bit Manas-CPU architecture
  - 16-bits total
  
  0000000000000000: 16b												                                      # 16 bits \
- 0_______________: Copy_ROM 											                                 ; bit 15 \
- _0______________: Check_prg_end										                              ; bit 14 \
- __0_____________: Jump if zero (JZ)									                           ; bit 13 \
- ___000__________: ALU operations; SU, MU, SL, SR, addition when all 0  ; bit 10-12 \
- ______0_________: ALU; EO											                                   ; bit 9 \
- _______000______: Read instructions									                           ; bit 6-8 \
- __________000___: Write instructions									                          ; bit 3-5 \
- _____________0__: Counter Increment/Enable (CI)						                  ; bit 2 \
- ______________0_: End Instruction (EI)								                         ; bit 1 \
- _______________0: ST													                                      ; bit 0 \
+  0---------------: Copy_ROM 											                                 ; bit 15 \
+  -0--------------: Check_prg_end										                              ; bit 14 \
+  --0-------------: Jump if zero (JZ)									                           ; bit 13 \
+  ---000----------: ALU operations; SU, MU, SL, SR, addition when all 0  ; bit 10-12 \
+  ------0---------: ALU; EO											                                   ; bit 9 \
+  -------000------: Read instructions									                           ; bit 6-8 \
+  ----------000---: Write instructions									                          ; bit 3-5 \
+  -------------0--: Counter Increment/Enable (CI)						                  ; bit 2 \
+  --------------0-: End Instruction (EI)								                         ; bit 1 \
+  ---------------0: ST													                                      ; bit 0 \
  
  
 # Microprogram Address:
