@@ -110,7 +110,7 @@ Files for the 16-bit Manas-CPU architecture
  - 16-bits total
  
  0000000000000000: 16b												                                      # 16 bits \
-  0---------------   : Copy_ROM 											                                 ; bit 15 \
+  0---------------             : Copy_ROM 											                                 ; bit 15 \
   -0--------------   : Check_prg_end										                              ; bit 14 \
   --0-------------   : Jump if zero (JZ)									                           ; bit 13 \
   ---000----------  : ALU operations; SU, MU, SL, SR, addition when all 0  ; bit 10-12 \
