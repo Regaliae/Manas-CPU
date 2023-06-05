@@ -1,5 +1,5 @@
 # Manas-CPU
-Files for the 16-bit Manas-CPU architecture. Made with Logisim-Evolution {https://github.com/logisim-evolution/logisim-evolution/releases}
+Files for the 16-bit Manas-CPU architecture. Made with Logisim-Evolution { https://github.com/logisim-evolution/logisim-evolution/releases }
 
 # Registers: 16-bit
  - A (Accumulator)
