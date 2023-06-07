@@ -74,7 +74,7 @@ Files for the 16-bit Manas-CPU architecture. Made with Logisim-Evolution { https
  #ALU in addition mode by default
  - SU : Enable subtraction mode
  - MU : Enable multiplication mode
- - DI : Division | idk how. Maybe add if time? | NOT IMPLEMENTED
+ - DI : Division | NOT IMPLEMENTED
  - SR : Enable shift right | Floor divide by 2
  - SL : Enable shift left | Multiply by 2
  - AND : Enable logical AND operation in ALU | NOT IMPLEMENTED
