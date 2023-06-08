@@ -107,7 +107,7 @@ Files for the 16-bit Manas-CPU architecture. Made with Logisim-Evolution { https
  
  - EI : End instruction
  - CI : Program counter increment
- - EO : Evaluate operation, write result to bus
+ - EO : Evaluate operation, write result to A register
  - ST : Stop clock
  - JZ : Jump if zero flag set; writes to program counter from data bus if zero flag
  - Cpy_ROM: Copies the program ROM to RAM, changes a few things to fit this purpose.
