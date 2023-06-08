@@ -115,7 +115,7 @@ Files for the 16-bit Manas-CPU architecture. Made with Logisim-Evolution { https
  
  
 # Microinstruction setup:
- - 5-ALU operations; 3-bits; EO 1-bit | 4b
+ - 5-ALU operations; 4-bits; EO 1-bit | 4b
  - 6-Read operations; 				  | 3b
  - 7-Write operations; 				  | 3b
  - 3-Special operations; EI, CI, ST	  | 3b
