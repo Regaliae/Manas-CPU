@@ -73,7 +73,7 @@ Files for the 16-bit Manas-CPU architecture. Made with Logisim-Evolution { https
  - FETCH 	           : Fetch next instruction
    - 0: CR, AW | 1: RM, IW | 2: CI, EI
  - Copy program ROM	   : Copy program rom to memory until End program discovered.
-   - 0: Copy_ROM, Check_prg_end | 1: Copy_ROM, AW | 2: CI, WM | 3: EI
+   - 0: Copy_ROM, AW | 1: Copy_ROM, Check_prg_end | 2: Copy_ROM, CI, WM | 3: EI
      4: FETCH to get instructions started, jumps here if prg_end detected
  - Program_END	 11111 : Signifies end of program in ROM, stops copying here; f800 | Won't be included in normal code, gets added by assembler
  
