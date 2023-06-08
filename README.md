@@ -26,7 +26,7 @@ Files for the 16-bit Manas-CPU architecture. Made with Logisim-Evolution { https
  - LDIA <value>  00100 : Immediatly load value into register A  
    - 1: IR, WA | 2: EI  
  - LDIB <value>  00101 : Immediatly load value into register B  
- - LDIC <value>  00110 : Immediatly load value into register CIN  
+ - LDIC <value>  00110 : Immediatly load value into register C  
 
  
  - STA <addr>	 00111 : Store A into memory <addr> 
