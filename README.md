@@ -3,6 +3,8 @@ Files for the 16-bit Manas-CPU architecture. Made with Logisim-Evolution { https
 You can read the project report for this project in the provided pdf, though don't expect superb quality. Had little time at the end.
 Project was inspired from watching AstroSam's video about his Astro8 computer.
 <br/>
+![Stavanger_NSA_David_Jøssang_CPU Circuit](https://github.com/Regaliae/Manas-CPU/assets/24374978/0152db2d-2f5c-43d2-9eb4-bdfa8d9ba268)
+
 # Registers: 16-bit
  - A (Accumulator)
  - B 
